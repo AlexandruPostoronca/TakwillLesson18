@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: The LocalDate class has methods for retrieving a length of the year and month
+    is_correct: true
+  - text: The instance method plusDays returns the same instance of this class
+    is_correct: false
+  - text: The invocation LocalDate.parse("2017-09-21") creates an instance represents
+      21st September 2017
+    is_correct: true
+  - text: The method getDayOfYear returns the same result as the method getDayOfMonth
+    is_correct: false
+  - text: The instance method withMonth changes the current instance of the class
+    is_correct: false
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 May 2024 10:25:39 UTC"
+record: -1
+selected_options:
+  - 0
+  - 2
+custom_name: Methods of LocalDate
+local_check: true

@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: LocalTime.ofSecondOfDay(millis * 1000)
+    is_correct: false
+  - text: LocalTime.ofSecondOfDay(millis / 1000)
+    is_correct: false
+  - text: LocalTime.ofNanoOfDay(millis * 1000000)
+    is_correct: true
+  - text: LocalTime.ofNanoOfDay(millis / 1000000)
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 May 2024 16:57:26 UTC"
+record: -1
+selected_options:
+  - 2
+custom_name: Millisecond precision
+local_check: true

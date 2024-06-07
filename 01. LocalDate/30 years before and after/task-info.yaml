@@ -1,0 +1,14 @@
+type: edu
+custom_name: 30 years before and after
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+  - name: test/MainTest.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 May 2024 08:42:42 UTC"
+record: -1

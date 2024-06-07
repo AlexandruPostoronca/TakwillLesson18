@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: time1.isAfter(time2) returns false
+    is_correct: false
+  - text: time1.isBefore(time1) returns false
+    is_correct: true
+  - text: time2.compareTo(time1) returns 0
+    is_correct: false
+  - text: time1.compareTo(time2) returns a positive number
+    is_correct: true
+  - text: time1.equals(time1) returns true
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Unchecked
+record: -1
+custom_name: Select correct statements
+local_check: true

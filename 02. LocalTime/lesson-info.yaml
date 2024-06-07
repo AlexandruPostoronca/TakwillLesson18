@@ -1,0 +1,12 @@
+content:
+  - Theory
+  - LocalTime constants
+  - Methods of LocalTime
+  - Millisecond precision
+  - Representing the same time
+  - Return time without seconds
+  - Same time
+  - Seconds between two time points
+  - Seconds since start of a day
+  - Some hours and minutes ago
+  - Working with time

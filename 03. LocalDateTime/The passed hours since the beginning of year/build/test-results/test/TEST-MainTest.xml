@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-05-26T18:39:12" hostname="DESKTOP-A97GDF4" time="0.026">
+  <properties/>
+  <testcase name="testDateTimeCalculationPositiveDayPositiveHour" classname="MainTest" time="0.02"/>
+  <testcase name="testDateTimeCalculationPositiveDayNegativeHour" classname="MainTest" time="0.001"/>
+  <testcase name="testDateTimeCalculationLeapYear" classname="MainTest" time="0.0"/>
+  <testcase name="testDateTimeCalculationEndOfYear" classname="MainTest" time="0.0"/>
+  <testcase name="testDateTimeCalculationNegativeDayPositiveHour" classname="MainTest" time="0.001"/>
+  <testcase name="testDateTimeCalculationNegativeDayNegativeHour" classname="MainTest" time="0.001"/>
+  <testcase name="test1" classname="MainTest" time="0.0"/>
+  <testcase name="testDateTimeCalculationLargeDateTime" classname="MainTest" time="0.0"/>
+  <testcase name="testDateTimeCalculationNoChange" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

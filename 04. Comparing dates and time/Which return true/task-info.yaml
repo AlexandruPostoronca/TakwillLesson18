@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "date.isEqual(LocalDate.of(2017, 12, 10));"
+    is_correct: true
+  - text: "date.isAfter(LocalDate.of(2017, 10, 12));"
+    is_correct: true
+  - text: "date.isBefore(LocalDate.of(2017, 12, 10));"
+    is_correct: false
+  - text: "date.isBefore(LocalDate.of(2017, 12, 12));"
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Unchecked
+record: -1
+custom_name: Which return true
+local_check: true

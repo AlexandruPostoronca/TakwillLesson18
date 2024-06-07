@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/01. LocalDate/10 days before" />
+            <option value="$PROJECT_DIR$/01. LocalDate/2 weeks after" />
+            <option value="$PROJECT_DIR$/01. LocalDate/30 years before and after" />
+            <option value="$PROJECT_DIR$/01. LocalDate/Convert numbers to days" />
+            <option value="$PROJECT_DIR$/01. LocalDate/Find all mondays" />
+            <option value="$PROJECT_DIR$/01. LocalDate/Getting information on a day" />
+            <option value="$PROJECT_DIR$/01. LocalDate/LocalDate class" />
+            <option value="$PROJECT_DIR$/01. LocalDate/Methods of LocalDate" />
+            <option value="$PROJECT_DIR$/01. LocalDate/Print dates of a year with an offset" />
+            <option value="$PROJECT_DIR$/01. LocalDate/Representing a date" />
+            <option value="$PROJECT_DIR$/01. LocalDate/Similar date" />
+            <option value="$PROJECT_DIR$/01. LocalDate/The first and the last day of a month" />
+            <option value="$PROJECT_DIR$/01. LocalDate/The first day of a month or not" />
+            <option value="$PROJECT_DIR$/01. LocalDate/The last day of a month" />
+            <option value="$PROJECT_DIR$/01. LocalDate/The n-th day from the end of a month" />
+            <option value="$PROJECT_DIR$/01. LocalDate/Theory" />
+            <option value="$PROJECT_DIR$/01. LocalDate/Working with dates" />
+            <option value="$PROJECT_DIR$/02. LocalTime/LocalTime constants" />
+            <option value="$PROJECT_DIR$/02. LocalTime/Methods of LocalTime" />
+            <option value="$PROJECT_DIR$/02. LocalTime/Millisecond precision" />
+            <option value="$PROJECT_DIR$/02. LocalTime/Representing the same time" />
+            <option value="$PROJECT_DIR$/02. LocalTime/Return time without seconds" />
+            <option value="$PROJECT_DIR$/02. LocalTime/Same time" />
+            <option value="$PROJECT_DIR$/02. LocalTime/Seconds between two time points" />
+            <option value="$PROJECT_DIR$/02. LocalTime/Seconds since start of a day" />
+            <option value="$PROJECT_DIR$/02. LocalTime/Some hours and minutes ago" />
+            <option value="$PROJECT_DIR$/02. LocalTime/Theory" />
+            <option value="$PROJECT_DIR$/02. LocalTime/Working with time" />
+            <option value="$PROJECT_DIR$/03. LocalDateTime/Add 11 hours and print the date" />
+            <option value="$PROJECT_DIR$/03. LocalDateTime/Add days and subtract hours" />
+            <option value="$PROJECT_DIR$/03. LocalDateTime/Adding N minutes" />
+            <option value="$PROJECT_DIR$/03. LocalDateTime/Create LocalDateTime" />
+            <option value="$PROJECT_DIR$/03. LocalDateTime/LocalDateTime class" />
+            <option value="$PROJECT_DIR$/03. LocalDateTime/Merging date-time instances" />
+            <option value="$PROJECT_DIR$/03. LocalDateTime/Methods of LocalDateTime" />
+            <option value="$PROJECT_DIR$/03. LocalDateTime/Same date and time" />
+            <option value="$PROJECT_DIR$/03. LocalDateTime/Subtracting hours and adding minutes" />
+            <option value="$PROJECT_DIR$/03. LocalDateTime/The passed hours since the beginning of year" />
+            <option value="$PROJECT_DIR$/03. LocalDateTime/Theory" />
+            <option value="$PROJECT_DIR$/03. LocalDateTime/Whole hours between two date-time pairs" />
+            <option value="$PROJECT_DIR$/04. Comparing dates and time/Dont be late again" />
+            <option value="$PROJECT_DIR$/04. Comparing dates and time/Find the latest date-time" />
+            <option value="$PROJECT_DIR$/04. Comparing dates and time/How many date-time pairs match the range" />
+            <option value="$PROJECT_DIR$/04. Comparing dates and time/Is after, is before" />
+            <option value="$PROJECT_DIR$/04. Comparing dates and time/Is the date between the two other dates" />
+            <option value="$PROJECT_DIR$/04. Comparing dates and time/Select correct statements" />
+            <option value="$PROJECT_DIR$/04. Comparing dates and time/The New Year is coming (or not)" />
+            <option value="$PROJECT_DIR$/04. Comparing dates and time/The intersection of time ranges" />
+            <option value="$PROJECT_DIR$/04. Comparing dates and time/Theory" />
+            <option value="$PROJECT_DIR$/04. Comparing dates and time/What is correct" />
+            <option value="$PROJECT_DIR$/04. Comparing dates and time/What is false" />
+            <option value="$PROJECT_DIR$/04. Comparing dates and time/What is true" />
+            <option value="$PROJECT_DIR$/04. Comparing dates and time/Which return true" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

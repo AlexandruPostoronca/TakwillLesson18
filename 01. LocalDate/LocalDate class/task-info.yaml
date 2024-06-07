@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: It is possible to create an instance of LocalDate from a string
+    is_correct: true
+  - text: It belongs to the package java.date
+    is_correct: false
+  - text: LocalDate represents a single date in a dd-MM-YYYY format
+    is_correct: false
+  - text: It's a mutable class
+    is_correct: false
+  - text: The numbers of months starts with 0
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 May 2024 08:39:54 UTC"
+record: -1
+selected_options:
+  - 0
+custom_name: LocalDate class
+local_check: true

@@ -1,0 +1,31 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "The invocation LocalTime.parse(\"11:59:50\") creates an instance that represents\
+    \ 11 hours, 50 minutes, 59 seconds"
+    is_correct: false
+  - text: The class has no methods for obtaining nanoseconds of an instance
+    is_correct: false
+  - text: The class has instance methods for adding and subtracting seconds
+    is_correct: true
+  - text: The method withSecond creates a new instance
+    is_correct: true
+  - text: The invocation LocalTime.ofSecondOfDay(3600) creates an instance that represents
+      01:00
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 May 2024 16:51:40 UTC"
+record: -1
+selected_options:
+  - 2
+  - 3
+  - 4
+custom_name: Methods of LocalTime
+local_check: true

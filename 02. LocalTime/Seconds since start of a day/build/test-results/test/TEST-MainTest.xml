@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-05-25T19:58:55" hostname="DESKTOP-A97GDF4" time="0.012">
+  <properties/>
+  <testcase name="testTimeConversionZeroValue" classname="MainTest" time="0.006"/>
+  <testcase name="testTimeConversionHours" classname="MainTest" time="0.001"/>
+  <testcase name="testTimeConversionMinutes" classname="MainTest" time="0.001"/>
+  <testcase name="testTimeConversionLargeValue" classname="MainTest" time="0.001"/>
+  <testcase name="testTimeConversionSeconds" classname="MainTest" time="0.0"/>
+  <testcase name="test1" classname="MainTest" time="0.001"/>
+  <testcase name="test2" classname="MainTest" time="0.0"/>
+  <testcase name="test3" classname="MainTest" time="0.001"/>
+  <testcase name="testTimeConversionZeroSeconds" classname="MainTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

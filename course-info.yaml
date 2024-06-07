@@ -1,0 +1,20 @@
+type: marketplace
+title: 18. Date and Time
+language: English
+summary: |
+  This is an introductory course about Date and Time in Java:
+  - 01. LocalDate
+  - 02. LocalTime
+  - 03. LocalDateTime
+  - 04. Comparing dates and time
+programming_language: Java
+content:
+  - 01. LocalDate
+  - 02. LocalTime
+  - 03. LocalDateTime
+  - 04. Comparing dates and time
+mode: Study
+environment_settings:
+  jvm_language_level: JDK_17
+vendor:
+  name: Alexandru Umaneț

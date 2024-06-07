@@ -1,0 +1,31 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "LocalDateTime.of(LocalDate.of(2020, 1, 1), LocalTime.MIDNIGHT).minusSeconds(1);"
+    is_correct: true
+  - text: "LocalDateTime.of(2020, 1, 1, 0, 1, 1).minusSeconds(61);"
+    is_correct: false
+  - text: LocalDateTime.parse("2017-12-31T23:59").withYear(2019);
+    is_correct: false
+  - text: "LocalDateTime.of(LocalDate.of(2019, 12, 31), LocalTime.MAX);"
+    is_correct: false
+  - text: "LocalDateTime.of(2020, 12, 31, 23, 59, 59).minusYears(1);"
+    is_correct: true
+  - text: LocalDateTime.parse("2019-12-31T23:59").withSecond(59);
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 26 May 2024 09:57:26 UTC"
+record: -1
+selected_options:
+  - 0
+  - 4
+  - 5
+custom_name: Same date and time
+local_check: true

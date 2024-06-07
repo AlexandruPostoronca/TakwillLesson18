@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-05-27T09:18:33" hostname="DESKTOP-A97GDF4" time="0.027">
+  <properties/>
+  <testcase name="testDateTimeManipulationInvalidFormat" classname="MainTest" time="0.022"/>
+  <testcase name="testDateTimeManipulationMinutes" classname="MainTest" time="0.001"/>
+  <testcase name="testDateTimeManipulationNegativeMinutes" classname="MainTest" time="0.0"/>
+  <testcase name="testDateTimeManipulationWithLeadingZeros" classname="MainTest" time="0.001"/>
+  <testcase name="testDateTimeManipulationNoChange" classname="MainTest" time="0.0"/>
+  <testcase name="testDateTimeManipulationLargeMinutes" classname="MainTest" time="0.001"/>
+  <testcase name="test1" classname="MainTest" time="0.0"/>
+  <testcase name="testDateTimeManipulationCrossingYear" classname="MainTest" time="0.0"/>
+  <testcase name="testDateTimeManipulationDays" classname="MainTest" time="0.001"/>
+  <testcase name="testDateTimeManipulationZeroMinutes" classname="MainTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+type: edu
+custom_name: Whole hours between two date-time pairs
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+  - name: test/MainTest.java
+    visible: false
+    learner_created: false
+status: Failed
+feedback:
+  message: 2022-06-10 &lt; 2022-06-15
+  time: "Mon, 27 May 2024 11:36:56 UTC"
+record: -1

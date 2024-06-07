@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-05-25T18:51:40" hostname="DESKTOP-A97GDF4" time="0.016">
+  <properties/>
+  <testcase name="testInputAtNoon" classname="MainTest" time="0.01"/>
+  <testcase name="testInputWithoutSeconds" classname="MainTest" time="0.0"/>
+  <testcase name="testInputWithSingleDigitMinutes" classname="MainTest" time="0.0"/>
+  <testcase name="testInputWithSingleDigitHours" classname="MainTest" time="0.001"/>
+  <testcase name="testInputWithInvalidValue" classname="MainTest" time="0.001"/>
+  <testcase name="testInputAtMidnight" classname="MainTest" time="0.0"/>
+  <testcase name="testInputWithInvalidFormat" classname="MainTest" time="0.001"/>
+  <testcase name="testInputWithSeconds" classname="MainTest" time="0.0"/>
+  <testcase name="testInputWithTrailingZeros" classname="MainTest" time="0.001"/>
+  <testcase name="testInputWithLeadingZeros" classname="MainTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

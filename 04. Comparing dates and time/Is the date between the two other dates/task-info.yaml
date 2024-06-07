@@ -1,0 +1,18 @@
+type: edu
+custom_name: Is the date between the two other dates?
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+  - name: test/MainTest.java
+    visible: false
+    learner_created: false
+status: Failed
+feedback:
+  message: |-
+    For input string:
+    2022-01-03 2022-01-03 2022-01-03
+  time: "Mon, 27 May 2024 15:23:17 UTC"
+  expected: "false"
+  actual: "true"
+record: -1

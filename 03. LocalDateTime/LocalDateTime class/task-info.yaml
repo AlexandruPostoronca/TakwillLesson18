@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "The invocation LocalDateTime.of(2017, 10, 11, 12, 13) creates an instance\
+    \ representing 13 December 2017, 10:11"
+    is_correct: false
+  - text: It is impossible to create an instance of this class from a string
+    is_correct: false
+  - text: It belongs to the package java.util
+    is_correct: false
+  - text: The class does not have methods for obtaining the year and hour of an object
+    is_correct: false
+  - text: The method withHour returns a new instance of the class
+    is_correct: true
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 May 2024 20:19:55 UTC"
+record: -1
+selected_options:
+  - 4
+custom_name: LocalDateTime class
+local_check: true

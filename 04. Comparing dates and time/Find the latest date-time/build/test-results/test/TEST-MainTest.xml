@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2024-05-27T11:45:57" hostname="DESKTOP-A97GDF4" time="0.032">
+  <properties/>
+  <testcase name="testLeapYear" classname="MainTest" time="0.014"/>
+  <testcase name="testMultipleDatesDifferentDates" classname="MainTest" time="0.001"/>
+  <testcase name="testInputWithWhitespace" classname="MainTest" time="0.0"/>
+  <testcase name="testLeapYearNonLeapYear" classname="MainTest" time="0.001"/>
+  <testcase name="testFutureDates" classname="MainTest" time="0.012"/>
+  <testcase name="testEqualDates" classname="MainTest" time="0.001"/>
+  <testcase name="testPastDates" classname="MainTest" time="0.001"/>
+  <testcase name="test1" classname="MainTest" time="0.001"/>
+  <testcase name="test2" classname="MainTest" time="0.0"/>
+  <testcase name="testSingleDate" classname="MainTest" time="0.001"/>
+  <testcase name="testMultipleDatesSameDate" classname="MainTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

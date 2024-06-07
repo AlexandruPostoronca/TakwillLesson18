@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-05-25T19:54:16" hostname="DESKTOP-A97GDF4" time="0.016">
+  <properties/>
+  <testcase name="testTimeDifferenceWithLeadingZeros" classname="MainTest" time="0.01"/>
+  <testcase name="testTimeDifferenceSameTime" classname="MainTest" time="0.001"/>
+  <testcase name="testTimeDifferenceMinutes" classname="MainTest" time="0.001"/>
+  <testcase name="testTimeDifferenceWithTrailingZeros" classname="MainTest" time="0.0"/>
+  <testcase name="testTimeDifferenceAcrossMidnight" classname="MainTest" time="0.001"/>
+  <testcase name="testTimeDifferenceInvalidValue" classname="MainTest" time="0.001"/>
+  <testcase name="testTimeDifferenceInvalidFormat" classname="MainTest" time="0.0"/>
+  <testcase name="testTimeDifferenceSeconds" classname="MainTest" time="0.001"/>
+  <testcase name="testTimeDifferenceHours" classname="MainTest" time="0.001"/>
+  <testcase name="testTimeDifferenceNegative" classname="MainTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

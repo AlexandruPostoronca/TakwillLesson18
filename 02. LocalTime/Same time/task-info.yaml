@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "LocalTime.of(22, 30, 15).minusMinutes(20)"
+    is_correct: false
+  - text: "LocalTime.of(22, 20).withSecond(15);"
+    is_correct: true
+  - text: "LocalTime.of(21, 0, 15).plusMinutes(80)"
+    is_correct: true
+  - text: "LocalTime.of(22, 5).plusMinutes(15);"
+    is_correct: false
+  - text: "LocalTime.of(22, 30).plusSeconds(15).withMinute(20);"
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 May 2024 18:55:39 UTC"
+record: -1
+selected_options:
+  - 1
+  - 2
+  - 4
+custom_name: Same time
+local_check: true

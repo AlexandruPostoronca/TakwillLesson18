@@ -1,0 +1,50 @@
+<html>
+ <head></head>
+ <body>
+  <p>There's a special class to represent the time of day in Java. The<code>LocalTime</code> class represents daytime in the hours-minutes-seconds format, such as <code>06:30</code> or <code>11:45:30</code>. It doesn't store information about the date or the time zone. Time is stored with nanosecond precision (for example, <code>13:45:30.123456789</code>). The<code>LocalTime</code> class could be used to store things like the opening and closing hours of a shop or a train schedule.</p>
+  <p>This class belongs to the <code>java.time</code> package and pretty much resembles the <code>LocalDate</code> class.</p>
+  <h4>Creating LocalTime, current time and constants</h4>
+  <p>First of all, let's see how we create an instance of the <code>LocalTime</code> class. An instance that stores the current time can be created as shown below:</p>
+  <pre><code>LocalTime now = LocalTime.now();</code></pre>
+  <p>If we want to pass a specific time to an instance, we should employ either of the two static methods <code>of</code> and <code>parse</code> to create an instance of <code>LocalTime</code> :</p>
+  <pre><code>LocalTime.of(11, 45);        // 11:45
+LocalTime.of(11, 45, 30);    // 11:45:30
+LocalTime.parse("11:45:30"); // 11:45:30 (hours, minutes, seconds)</code></pre>
+  <p>In the first line, second and nanosecond fields will be set to zero.</p>
+  <p>The hour of a day is an <code>int</code> number from 0 to 23, while minutes and seconds are numbers from 0 to 59. Nanoseconds can be any integer numbers from 0 to 999,999,999. The following code throws an exception:</p>
+  <pre><code>LocalTime.of(24, 1, 1); // it throws DateTimeException (24 is an invalid value for hours)</code></pre>
+  <p>It's also possible to create an instance of <code>LocalTime</code> by using static methods <code>ofSecondOfDay</code> and <code>ofNanoOfDay</code>. In this case, we should indicate seconds and nanoseconds of a day respectively:</p>
+  <pre><code>LocalTime time = LocalTime.ofSecondOfDay(12345); // 03:25:45
+LocalTime nanotime = LocalTime.ofNanoOfDay(1234567890); // 00:00:01.234567890</code></pre>
+  <p>There are some predefined constants in the <code>LocalTime</code> class as well :</p>
+  <pre><code>LocalTime.MIN; // 00:00
+LocalTime.MAX; // 23:59:59.999999999
+LocalTime.NOON; // 12:00
+LocalTime.MIDNIGHT; // 00:00</code></pre>
+  <p>Remember that it is a good practice to use constants whenever it is possible!</p>
+  <h4>LocalTime: hours, minutes and seconds</h4>
+  <p>Now let's discuss a bunch of useful methods of the <code>LocalTime</code> class.</p>
+  <p>Let's suppose we have an instance of <code>LocalTime</code> :</p>
+  <pre><code>LocalTime time = LocalTime.of(11, 45, 30); // 11:45:30</code></pre>
+  <p>By using the following methods we can get hours, minutes, seconds, and nanoseconds of it:</p>
+  <pre><code>time.getHour();   // 11
+time.getMinute(); // 45
+time.getSecond(); // 30
+time.getNano();   // 0, nanoseconds</code></pre>
+  <p>Another useful method is <code>toSecondOfDay</code>. It returns the time in seconds of the day from the given <code>LocalTime</code> instance. For our example, it'll be:</p>
+  <pre><code>time.toSecondOfDay(); // 42330</code></pre>
+  <h4>Arithmetic methods of LocalTime</h4>
+  <p>The class also has methods to add and subtract hours, minutes, seconds, and nanoseconds:</p>
+  <pre><code>LocalTime time1 = time.plusHours(5); // 16:45:30
+LocalTime time2 = time.plusHours(22); // 09:45:30
+LocalTime time3 = time.minusMinutes(10); // 11:35:30
+LocalTime time4 = time.minusSeconds(30); // 11:45</code></pre>
+  <p>The following methods return a copy of an instance with one altered part:</p>
+  <pre><code>LocalTime time1 = time.withHour(23); // 23:45:30
+LocalTime time2 = time.withMinute(50); // 11:50:30
+LocalTime time3 = time.withSecond(0); // 11:45</code></pre>
+  <h4>Conclusion</h4>
+  <p>Keep in mind that <code>LocalTime</code> class is <strong>immutable </strong>and all considered methods return a new instance.</p>
+  <p>As you can see, the <code>LocalTime</code> class provides enough methods that will simplify your job and save your time when you'll have to deal with hours, minutes, and seconds.</p>
+ </body>
+</html>

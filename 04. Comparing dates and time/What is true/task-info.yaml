@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: date1.compareTo(date2) returns a positive number
+    is_correct: false
+  - text: date1.isBefore(date2) returns false
+    is_correct: false
+  - text: date2.isAfter(date2) returns true
+    is_correct: false
+  - text: date1.compareTo(date1) returns 0
+    is_correct: true
+  - text: date2.isEqual(date2) returns false
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Unchecked
+record: -1
+custom_name: What is true?
+local_check: true

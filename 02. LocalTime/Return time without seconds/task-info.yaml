@@ -1,0 +1,14 @@
+type: edu
+custom_name: Return time without seconds
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+  - name: test/MainTest.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 May 2024 18:51:40 UTC"
+record: -1

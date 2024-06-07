@@ -1,0 +1,45 @@
+<html>
+ <head></head>
+ <body>
+  <p>The class <code>LocalDateTime</code> is a combination of <code>LocalDate</code> and <code>LocalTime</code> that keeps such values as <code>2017-12-03T22:30</code>. It still doesn't store information on a time-zone. It could be used to store a date and time of a transaction in a payment system. As in the <code>LocalTime</code> class, time is represented to nanosecond precision.</p>
+  <h4>Creating LocalDateTime and current time</h4>
+  <p>An instance of <code>LocalDateTime</code> that represents <strong>this </strong>current moment can be obtained as below:</p>
+  <pre><code>LocalDateTime now = LocalDateTime.now(); // this moment</code></pre>
+  <p>The class has static methods <code>of</code> and <code>parse</code> to create instances:</p>
+  <pre><code>LocalDateTime dt1 = LocalDateTime.of(2017, 11, 25, 22, 30);  // 25 November 2017, 22:30
+LocalDateTime dt2 = LocalDateTime.parse("2017-11-25T22:30"); // 25 November 2017, 22:30</code></pre>
+  <p>It's also possible to obtain an instance from the instances of <code>LocalDate</code> and <code>LocalTime</code>, like this:</p>
+  <pre><code>LocalDate date = LocalDate.of(2017, 11, 25); // 2017-11-25
+LocalTime time = LocalTime.of(21, 30); // 21:30
+        
+LocalDateTime dateTime = LocalDateTime.of(date, time); // 2017-11-25T21:30</code></pre>
+  <p>or by using special instance methods of <code>LocalDate</code> and <code>LocalTime</code>:</p>
+  <pre><code>LocalDate date = LocalDate.of(2017, 11, 25); // 2017-11-25
+LocalTime time = LocalTime.of(21, 30); // 21:30       
+
+LocalDateTime dateTime1 = date.atTime(time); // 2017-11-25T21:30
+LocalDateTime dateTime2 = time.atDate(date); // 2017-11-25T21:30</code></pre>
+  <h4>LocalDateTime: from years to minutes</h4>
+  <p>Now let's observe some methods of the <code>LocalDateTime</code> class. We've already created an instance <code>dateTime</code> to represent the 25 of November, 2017, 10:30 pm :</p>
+  <pre><code>LocalDateTime dateTime = LocalDateTime.of(2017, 11, 25, 22, 30); // 25 November 2017, 22:30</code></pre>
+  <p>The class <code>LocalDateTime</code> has methods for obtaining units of date and time, such as a month, day of the month, hour and minute:</p>
+  <pre><code>int month = dateTime.getMonthValue(); // 11
+int day = dateTime.getDayOfMonth(); // 25
+int hour = dateTime.getHour(); // 22
+int minute = dateTime.getMinute(); // 30</code></pre>
+  <p>The class also has instance methods <code>toLocalDate</code> and <code>toLocalTime</code> to get the date and time as the whole parts of <code>LocalDateTime</code>:</p>
+  <pre><code>LocalDate dateOf = dateTime.toLocalDate(); // 2017-11-25
+LocalTime timeOf = dateTime.toLocalTime(); // 22:30</code></pre>
+  <h4>Arithmetic methods of LocalDateTime</h4>
+  <p>The class has methods to add, subtract and alter years, months, days, hours, minutes, seconds as well as <code>LocalDate</code> and <code>LocalTime</code>. Let's explore them with a different example:</p>
+  <pre><code>LocalDateTime endOf2017 = LocalDateTime.of(2017, 12, 31, 23, 59, 59); // 2017-12-31T23:59:59</code></pre>
+  <p>This is how by adding one second we get into another year or move by years:</p>
+  <pre><code>LocalDateTime beginningOf2018 = endOf2017.plusSeconds(1); // 2018-01-01T00:00
+LocalDateTime beginningOf2020 = beginningOf2018.plusYears(2); // 2020-01-01T00:00
+</code></pre>
+  <p>We can also alter the constituents of the <code>LocalDateTime</code> by indicating its values:</p>
+  <pre><code>LocalDateTime beginningOf2020 = beginningOf2018.withYear(2020); // 2020-01-01T00:00</code></pre>
+  <p></p>
+  <p>As you see, <code>LocalDateTime</code> is another <strong>immutable </strong>class from the <code>java.time</code> package. It represents a combination of <code>LocalDate</code> and <code>LocalTime</code>.</p>
+ </body>
+</html>

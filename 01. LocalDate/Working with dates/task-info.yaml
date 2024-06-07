@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "LocalDate.of(2017, 10, 11).withDayOfMonth(12)"
+    is_correct: true
+  - text: "LocalDate.of(2017, 12, 10)"
+    is_correct: false
+  - text: "LocalDate.of(2017, 1, 1).plusMonths(9).withDayOfMonth(12)"
+    is_correct: true
+  - text: "LocalDate.of(2017, 10, 1).withDayOfYear(12)"
+    is_correct: false
+  - text: "LocalDate.of(2018, 10, 12).minusYears(1)"
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 May 2024 14:27:48 UTC"
+record: -1
+selected_options:
+  - 0
+  - 2
+  - 4
+custom_name: Working with dates
+local_check: true

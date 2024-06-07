@@ -1,0 +1,34 @@
+<html>
+ <head></head>
+ <body>
+  <p>Write a program that determines whether the <em>date-time pairs</em> belong to the specified <em>time range</em> (including the earlier date-time and excluding the later) and <em>counts the number</em> of such dates. The number of date-time pairs to process <strong>N</strong> should be specified by the user. Each pair has the <strong>year</strong>-<strong>month</strong>-<strong>day</strong>T<strong>hour</strong>:<strong>minute </strong>format.</p>
+  <p>If the borders of the range are equal and a date-time is equal to them, such date-time is not considered as belonging to the range.</p>
+  <p><strong>Input data format</strong></p>
+  <p>The first line contains a border of the range (either earlier or later). The second line contains the other border of the range. The third line contains an integer number <strong>N</strong>: a number of date-time pairs. The following N lines consist of date-time pairs.</p>
+  <p><strong>Output data format</strong></p>
+  <p>The program must output an<em> integer number</em>: the count of date-time pairs belonging to the given range.</p>
+  <div class="alert alert-warning">
+   <strong>Important:</strong> the first and the second input dates do not correspond to the start and the end date. The program must determine which date is earlier.
+  </div>
+  <div>
+   <p><strong> Sample Input 1: </strong></p>
+   <pre>2017-12-01T00:10
+2017-12-02T00:10
+3
+2017-12-01T00:10
+2017-12-01T13:50
+2017-12-02T00:10</pre>
+   <p><strong> Sample Output 1: </strong></p>
+   <pre>2</pre>
+  </div>
+  <div>
+   <p><strong> Sample Input 2: </strong></p>
+   <pre>2017-12-31T23:59
+2017-12-01T00:00
+1
+2017-12-01T00:00</pre>
+   <p><strong> Sample Output 2: </strong></p>
+   <pre>1</pre>
+  </div>
+ </body>
+</html>

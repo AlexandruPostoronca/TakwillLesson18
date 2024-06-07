@@ -1,0 +1,18 @@
+content:
+  - Theory
+  - 10 days before
+  - LocalDate class
+  - 2 weeks after
+  - 30 years before and after
+  - Convert numbers to days
+  - Getting information on a day
+  - Methods of LocalDate
+  - Print dates of a year with an offset
+  - Representing a date
+  - Similar date
+  - The first and the last day of a month
+  - The first day of a month or not
+  - The last day of a month
+  - The n-th day from the end of a month
+  - Working with dates
+  - Find all mondays

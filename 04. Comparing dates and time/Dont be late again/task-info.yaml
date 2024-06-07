@@ -1,0 +1,26 @@
+type: edu
+custom_name: Don't be late again
+files:
+  - name: src/DontBeLateAgain.java
+    visible: true
+    placeholders:
+      - offset: 139
+        length: 528
+        placeholder_text: // put your code here
+        initial_state:
+          length: 21
+          offset: 139
+        initialized_from_dependency: false
+        encrypted_possible_answer: gEU6GLXRMBewtbMLNMiud3zRhb0Hpj/py3tc9DghXrTSEAfpEhA8rlfOIfiG5DAXtT3OC+GiCjzGhWg8HH1KH7zHQoXlOrLcwECy1PaoOQfCasgxuV35qm6zraPrsbtE2HfDiExtfhWjokQAeLJCiZjobpN2Nl1bIXVwW8qIRIGBECS9e10klH4ycObVV7rJALEi/DavAcL0F2iMp5hkqou8OtnSKoKyhVz0M14E5Ij4yfi1EI95pjcSkn55WdG3/gRQRbfAptAFqWXjpVA7lEInp7czy8WFDLoGyavUbtwe3TDNvtI0QziuFXdcbWINm5GLQ0uXWi1ZmTmbizdLJ8QtoT9vU2U+PVHb729Ep/Sd0CAyagNl1S8DfPtNOEqkoYKnHVafetlM8SKghXlNHHq/T6R4ija7BuJK927pN2tlgEhiwXAObAnFJeP4wv9NvGrXN1YTGqIcOI7TS2HT4IVaAzeewHIyiTTyZu22JMK6iODvLZZYx6j8TSSRhgrQqcsm3BTnPXT7bHzOo0AwTBxn26YfASWdw9mP6D3MGo1uYCqB5ZjMO04ABwj8YMHp
+        selected: false
+        status: Solved
+        is_visible: false
+    learner_created: false
+  - name: test/DontBeLateAgainTest.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 27 May 2024 10:52:49 UTC"
+record: -1

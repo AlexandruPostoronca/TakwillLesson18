@@ -1,0 +1,13 @@
+content:
+  - Theory
+  - LocalDateTime class
+  - Add days and subtract hours
+  - Add 11 hours and print the date
+  - Adding N minutes
+  - Create LocalDateTime
+  - Merging date-time instances
+  - Methods of LocalDateTime
+  - Same date and time
+  - Subtracting hours and adding minutes
+  - The passed hours since the beginning of year
+  - Whole hours between two date-time pairs

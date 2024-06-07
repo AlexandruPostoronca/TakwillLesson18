@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "LocalDate.ofYearDay(2018, 2);"
+    is_correct: true
+  - text: "LocalDate.of(2018, 1, 1).withDayOfMonth(1);"
+    is_correct: false
+  - text: "LocalDate.of(2018, 2, 1);"
+    is_correct: false
+  - text: "LocalDate.of(2018, 1, 1).plusDays(1);"
+    is_correct: true
+  - text: "LocalDate.of(2018, 3, 2).minusMonths(2);"
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 May 2024 11:36:34 UTC"
+record: -1
+selected_options:
+  - 0
+  - 3
+  - 4
+custom_name: Representing a date
+local_check: true

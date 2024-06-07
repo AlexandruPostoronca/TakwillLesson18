@@ -1,0 +1,11 @@
+type: edu
+custom_name: Find all mondays
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+  - name: test/MainTest.java
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

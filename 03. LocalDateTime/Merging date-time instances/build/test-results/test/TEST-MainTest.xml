@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2024-05-27T11:36:14" hostname="DESKTOP-A97GDF4" time="0.02">
+  <properties/>
+  <testcase name="testDateTimeMergeDifferentYearsDifferentMonthsDifferentDaysDifferentTime" classname="MainTest" time="0.014"/>
+  <testcase name="testDateTimeMergeDifferentYearsDifferentMonthsDifferentDaysDifferentMinutes" classname="MainTest" time="0.001"/>
+  <testcase name="testDateTimeMergeDifferentYearsDifferentMonthsDifferentDaysSameTime" classname="MainTest" time="0.0"/>
+  <testcase name="testDateTimeMergeDifferentYearsDifferentMonthsDifferentDaysDifferentSeconds" classname="MainTest" time="0.001"/>
+  <testcase name="testDateTimeMergeDifferentYearsSameDateTime" classname="MainTest" time="0.0"/>
+  <testcase name="testDateTimeMergeSameDateTime" classname="MainTest" time="0.001"/>
+  <testcase name="test1" classname="MainTest" time="0.0"/>
+  <testcase name="testDateTimeMergeDifferentYear" classname="MainTest" time="0.0"/>
+  <testcase name="testDateTimeMergeSameYear" classname="MainTest" time="0.001"/>
+  <testcase name="testDateTimeMergeDifferentYearsDifferentMonthsDifferentDaysDifferentHours" classname="MainTest" time="0.0"/>
+  <testcase name="testDateTimeMergeDifferentYearsDifferentMonthsSameDay" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

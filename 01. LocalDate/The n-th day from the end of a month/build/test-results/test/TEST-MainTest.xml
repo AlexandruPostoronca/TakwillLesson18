@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-05-25T14:24:45" hostname="DESKTOP-A97GDF4" time="0.018">
+  <properties/>
+  <testcase name="testFirstDayOfMonth" classname="MainTest" time="0.007"/>
+  <testcase name="testOneDayBeforeLastDayOfMonth" classname="MainTest" time="0.001"/>
+  <testcase name="testLastDayOfMonthInLeapYear" classname="MainTest" time="0.001"/>
+  <testcase name="testFiveDaysBeforeFirstDayOfMonth" classname="MainTest" time="0.001"/>
+  <testcase name="testRandomDayInMonth" classname="MainTest" time="0.001"/>
+  <testcase name="testFourDaysBeforeFirstDayOfMonthInLeapYear" classname="MainTest" time="0.001"/>
+  <testcase name="testFourDaysBeforeLastDayOfMonth" classname="MainTest" time="0.001"/>
+  <testcase name="testFirstDayOfMonthInLeapYear" classname="MainTest" time="0.001"/>
+  <testcase name="testThreeDaysBeforeLastDayOfMonthInLeapYear" classname="MainTest" time="0.001"/>
+  <testcase name="testLastDayOfMonth" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

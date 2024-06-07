@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "The invocation LocalDateTime.parse(\"2017-05-04T12:24\") creates an instance\
+    \ representing 4 May 2017, 12:24"
+    is_correct: true
+  - text: The method plusYears modify the instance of the class
+    is_correct: false
+  - text: The method withSecond modify the instance of the class
+    is_correct: false
+  - text: The method plusSeconds returns a new instance of the class
+    is_correct: true
+  - text: "The invocation LocalDateTime.of(2017, 7, 6, 5, 4) creates an instance representing\
+    \ 7 June 2017, 05:04"
+    is_correct: false
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 26 May 2024 09:51:54 UTC"
+record: -1
+selected_options:
+  - 0
+  - 3
+custom_name: Methods of LocalDateTime
+local_check: true

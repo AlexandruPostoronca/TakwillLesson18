@@ -1,0 +1,14 @@
+type: edu
+custom_name: Convert numbers to days
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+  - name: test/MainTest.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 May 2024 10:06:41 UTC"
+record: -1

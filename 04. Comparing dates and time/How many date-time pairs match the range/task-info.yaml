@@ -1,0 +1,21 @@
+type: edu
+custom_name: How many date-time pairs match the range
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+  - name: test/MainTest.java
+    visible: false
+    learner_created: false
+status: Failed
+feedback:
+  message: |-
+    For input string:
+    2022-01-01T00:00
+    2022-01-05T00:00
+    1
+    2022-01-03T12:00
+  time: "Mon, 27 May 2024 13:00:25 UTC"
+  expected: 1
+  actual: 0
+record: -1

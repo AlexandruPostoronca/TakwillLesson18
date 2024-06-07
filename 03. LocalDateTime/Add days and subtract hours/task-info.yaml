@@ -1,0 +1,14 @@
+type: edu
+custom_name: Add days and subtract hours
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+  - name: test/MainTest.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 May 2024 21:41:02 UTC"
+record: -1

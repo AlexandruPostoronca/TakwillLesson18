@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-05-25T11:32:10" hostname="DESKTOP-A97GDF4" time="0.029">
+  <properties/>
+  <testcase name="testDateWithMaxYear" classname="MainTest" time="0.013"/>
+  <testcase name="testDateWithOffsetEqualToYear" classname="MainTest" time="0.001"/>
+  <testcase name="testDateWithNegativeYear" classname="MainTest" time="0.002"/>
+  <testcase name="testDateWithInvalidInput" classname="MainTest" time="0.002"/>
+  <testcase name="testDateWithNonexistentDate" classname="MainTest" time="0.001"/>
+  <testcase name="testDateWithOffsetLargerThanYear" classname="MainTest" time="0.002"/>
+  <testcase name="test1" classname="MainTest" time="0.001"/>
+  <testcase name="test2" classname="MainTest" time="0.001"/>
+  <testcase name="testPositiveOffset" classname="MainTest" time="0.002"/>
+  <testcase name="testDateWithLeapYear" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

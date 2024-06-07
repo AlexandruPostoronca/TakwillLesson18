@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "LocalDateTime.of(date, LocalTime.MAX.minusMinutes(15));"
+    is_correct: false
+  - text: LocalDateTime.of("1993-8-30T23:45");
+    is_correct: false
+  - text: "LocalDateTime.of(date, LocalTime.MIDNIGHT.minusMinutes(15));"
+    is_correct: true
+  - text: "LocalDateTime.parse(1993, 8, 30, 23, 45);"
+    is_correct: false
+  - text: "LocalDateTime.of(date, time);"
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 May 2024 21:58:12 UTC"
+record: -1
+selected_options:
+  - 2
+  - 4
+custom_name: Create LocalDateTime
+local_check: true

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DontBeLateAgainTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-05-27T10:52:49" hostname="DESKTOP-A97GDF4" time="0.02">
+  <properties/>
+  <testcase name="simpleTest1" classname="DontBeLateAgainTest" time="0.013"/>
+  <testcase name="simpleTest2" classname="DontBeLateAgainTest" time="0.0"/>
+  <testcase name="simpleTest3" classname="DontBeLateAgainTest" time="0.0"/>
+  <testcase name="simpleTest4" classname="DontBeLateAgainTest" time="0.001"/>
+  <testcase name="simpleTest5" classname="DontBeLateAgainTest" time="0.001"/>
+  <testcase name="edgeTest1" classname="DontBeLateAgainTest" time="0.001"/>
+  <testcase name="edgeTest2" classname="DontBeLateAgainTest" time="0.0"/>
+  <testcase name="edgeTest3" classname="DontBeLateAgainTest" time="0.001"/>
+  <testcase name="edgeTest4" classname="DontBeLateAgainTest" time="0.001"/>
+  <testcase name="edgeTest5" classname="DontBeLateAgainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

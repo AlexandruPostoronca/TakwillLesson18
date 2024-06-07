@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "LocalTime.of(23, 30, 50).minusSeconds(30);"
+    is_correct: false
+  - text: "LocalTime.of(11, 50);"
+    is_correct: false
+  - text: "LocalTime.of(23, 50, 0).plusHours(24);"
+    is_correct: true
+  - text: "LocalTime.of(23, 50, 30).withSecond(0);"
+    is_correct: true
+  - text: "LocalTime.of(23, 50);"
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 May 2024 16:59:58 UTC"
+record: -1
+selected_options:
+  - 2
+  - 3
+  - 4
+custom_name: Representing the same time
+local_check: true

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2024-05-25T12:45:36" hostname="DESKTOP-A97GDF4" time="0.021">
+  <properties/>
+  <testcase name="testLeapYearLastDayOfMonth" classname="MainTest" time="0.007"/>
+  <testcase name="testZeroDayOfYear" classname="MainTest" time="0.001"/>
+  <testcase name="testLeapYearNonLastDayOfMonth" classname="MainTest" time="0.001"/>
+  <testcase name="testMaxYearLastDayOfMonth" classname="MainTest" time="0.002"/>
+  <testcase name="testNonexistentDayOfYear" classname="MainTest" time="0.0"/>
+  <testcase name="test1" classname="MainTest" time="0.001"/>
+  <testcase name="test2" classname="MainTest" time="0.001"/>
+  <testcase name="testNonLastDayOfMonth" classname="MainTest" time="0.002"/>
+  <testcase name="testMaxYearNonLastDayOfMonth" classname="MainTest" time="0.001"/>
+  <testcase name="testNegativeYear" classname="MainTest" time="0.001"/>
+  <testcase name="testLastDayOfMonth" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
